@@ -1,3 +1,4 @@
+
 class Private{
     private int num=123;
     void showcode(){
@@ -8,6 +9,7 @@ public class PrivateAccess {
     public static void main(String[] args) {
         Private obj= new Private();
         obj.showcode();
+        
     }
     
 }
